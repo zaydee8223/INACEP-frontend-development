@@ -37,6 +37,7 @@ p {
 
 .mobile-overflow {
   overflow: hidden;
+  position: fixed;
 }
 
 @font-face {
