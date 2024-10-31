@@ -40,28 +40,8 @@ p {
 }
 
 @font-face {
-  font-family: "read-bold";
-  src: url(../fonts/ReadexPro-Bold.ttf) format("truetype");
-}
-@font-face {
-  font-family: "read-extralight";
-  src: url(../fonts/ReadexPro-ExtraLight.ttf) format("truetype");
-}
-@font-face {
-  font-family: "read-light";
-  src: url(../fonts/ReadexPro-Light.ttf) format("truetype");
-}
-@font-face {
-  font-family: "read-medium";
-  src: url(../fonts/ReadexPro-Medium.ttf) format("truetype");
-}
-@font-face {
-  font-family: "read-reg";
-  src: url(../fonts/ReadexPro-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "read-semibold";
-  src: url(../fonts/ReadexPro-SemiBold.ttf) format("truetype");
+  font-family: "prox-reg";
+  src: url(../fonts/ProximaNova-Regular.otf) format("truetype");
 }
 @font-face {
   font-family: "prox-medium";
