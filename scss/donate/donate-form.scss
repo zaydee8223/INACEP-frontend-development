@@ -1,0 +1,57 @@
+//advocacy fund & iempac donation
+.donate-form {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-bottom: 50px;
+
+
+    .donate-inputs {
+
+        label {
+            display: block;
+            font-size: 16px;
+            color: #7c7c7c;
+            padding-left: 25px;
+            font-family: "prox-bold";
+        }
+
+        input {
+            width: 450px;
+            height: 60px;
+            display: block;
+            font-size: 16px;
+            margin-top: 15px;
+            padding-left: 20px;
+            border-radius: 50px;
+            margin-bottom: 25px;
+            font-family: "prox-reg";
+            border: 2px solid #bbbbbb;
+            background-color: $footer-background-color;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+}
+
+}
+
+//donate submit btn
+ .donate-submit-btn{
+    border: none;
+    color: $white;
+    width: 500px;
+    height: 68px;
+    cursor: pointer;
+    margin-left: 600px;
+    font-size: 22px;
+    border-radius: 50px;
+    letter-spacing: 0.1pc;
+    font-family: "prox-medium";
+    background-color: $primary;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+//active effect
+.donate-submit-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}

@@ -54,7 +54,7 @@ p {
 }
 .app {
   width: 100%;
-  height: 100%;
+  padding: 0 0 60px 0;
 }
 
 nav {
@@ -467,6 +467,102 @@ footer img {
   footer .footer-links .footer-col p {
     display: none;
   }
+}
+.donate-header {
+  padding: 40px;
+  width: 100%;
+}
+.donate-header p {
+  color: #0065bd;
+  font-size: 35px;
+  text-align: center;
+  font-family: "prox-medium";
+}
+
+.main-donate-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main-donate-holder .donate-link-holder .box {
+  width: 390px;
+  height: 360px;
+  border-radius: 40px;
+  margin-bottom: 40px;
+  background-color: #d9d9d9;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.main-donate-holder .donate-link-holder .box:hover {
+  border: solid 4px #0065bd;
+}
+.main-donate-holder .donate-link-holder .donate-type-btn {
+  border: none;
+  width: 390px;
+  height: 68px;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 50px;
+  letter-spacing: 0.1pc;
+  font-family: "prox-medium";
+  background-color: #0065bd;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.main-donate-holder .donate-link-holder .donate-type-btn a {
+  color: #e0e0e0;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main-donate-holder .donate-link-holder .donate-type-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.donate-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.donate-form .donate-inputs label {
+  display: block;
+  font-size: 16px;
+  color: #7c7c7c;
+  padding-left: 25px;
+  font-family: "prox-bold";
+}
+.donate-form .donate-inputs input {
+  width: 450px;
+  height: 60px;
+  display: block;
+  font-size: 16px;
+  margin-top: 15px;
+  padding-left: 20px;
+  border-radius: 50px;
+  margin-bottom: 25px;
+  font-family: "prox-reg";
+  border: 2px solid #bbbbbb;
+  background-color: #d9d9d9;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.donate-submit-btn {
+  border: none;
+  color: #e0e0e0;
+  width: 500px;
+  height: 68px;
+  cursor: pointer;
+  margin-left: 600px;
+  font-size: 22px;
+  border-radius: 50px;
+  letter-spacing: 0.1pc;
+  font-family: "prox-medium";
+  background-color: #0065bd;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.donate-submit-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=styles.css.map */
