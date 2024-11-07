@@ -546,12 +546,16 @@ footer img {
 }
 
 .donate-submit-btn {
-  border: none;
-  color: #e0e0e0;
   width: 500px;
   height: 68px;
+  margin: 0 auto;
+}
+.donate-submit-btn button {
+  border: none;
+  color: #e0e0e0;
   cursor: pointer;
-  margin-left: 600px;
+  width: 500px;
+  height: 68px;
   font-size: 22px;
   border-radius: 50px;
   letter-spacing: 0.1pc;

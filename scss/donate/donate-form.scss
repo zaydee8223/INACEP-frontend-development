@@ -36,18 +36,23 @@ margin-bottom: 50px;
 
 //donate submit btn
  .donate-submit-btn{
-    border: none;
-    color: $white;
     width: 500px;
     height: 68px;
-    cursor: pointer;
-    margin-left: 600px;
-    font-size: 22px;
-    border-radius: 50px;
-    letter-spacing: 0.1pc;
-    font-family: "prox-medium";
-    background-color: $primary;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+
+    button {
+        border: none;
+        color: $white;
+        cursor: pointer;
+        width: 500px;
+        height: 68px;
+        font-size: 22px;
+        border-radius: 50px;
+        letter-spacing: 0.1pc;
+        font-family: "prox-medium";
+        background-color: $primary;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
 }
 
 //active effect
