@@ -1,0 +1,188 @@
+//contact header
+.contact-header {
+    padding: 40px;
+    width: 100%;
+    p {
+        color: $primary;
+        font-size: 35px;
+        text-align: center;
+        font-family: "prox-medium";
+    }
+}
+
+//main holder for all contact information
+.main-contact-parent {
+    width: 1100px;
+    height: 658px;
+    margin: 0 auto;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $footer-background-color;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    //main holder for contact info
+    .contact-info-parent{
+        width: 40%;
+        height: 100%;
+        padding: 30px;
+        border-radius: 40px;
+        background-color: $primary;
+
+        h2 {
+            color: $white;
+            font-family: "prox-medium";
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        //contact info - body
+        .contact-info-body {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        //all contact info
+       .contact-stats{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 80px;
+            
+            //icons
+            i {
+                color: $white;
+                font-size: 45px;
+            }
+
+
+            //links - phone and email
+            a {
+                color: $white;
+                text-decoration: none;
+                cursor: pointer;
+                width: 60%;
+                font-size: 18px;
+                font-family: "prox-medium";
+            }
+
+            //address
+                p {
+                    color: $white;
+                    font-size: 18px;
+                    width: 100%;
+                    text-align: left;
+                    margin-left: 60px;
+                    font-family: "prox-medium";
+                }
+            }
+        }
+
+        //form on contact
+        .contact-form-parent {
+            margin-left: 25px;
+            //input for email and name
+            .name-email-input {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                
+                //labels + inputs for email and naim
+                .contact-name, .contact-email {
+                   //label
+                    label {
+                        display: block;
+                        font-size: 18px;
+                        color: $dark-grey;
+                        font-family: "prox-medium"; 
+                    }
+
+                    //input
+                    input {
+                        width: 220px;
+                        height: 30px;
+                        border: none;
+                        outline: none;
+                        font-size: 16px;
+                        padding-left: 10px;
+                        margin-right: 80px;
+                        font-family: "prox-medium";
+                        border-bottom: 2px solid $dark-grey;
+                        background-color: $footer-background-color;
+                    }
+                }
+            }
+
+             //subject and message - basic style
+             label {
+                display: block;
+                font-size: 18px;
+                color: $dark-grey;
+                font-family: "red";
+                margin-bottom: 20px;
+                font-family: "prox-medium";
+             }
+
+             input, textarea {
+                display: block;
+                font-size: 16px;
+                margin-bottom: 30px;
+                font-family: "prox-medium";
+                background-color: $footer-background-color;
+             }
+
+             //subject styling
+             .contact-subject {
+
+                input {
+                    width: 520px;
+                    height: 30px;
+                    border: none;
+                    outline: none;
+                    padding-left: 10px;
+                    border-bottom: 2px solid $dark-grey;
+                }
+             }
+
+             //message styling
+             .contact-message{
+               
+                #cFMessage {
+                    width: 520px;
+                    height: 200px;
+                    outline: none;
+                    padding: 10px;
+                    border: 2px solid $dark-grey;
+                }
+             }
+
+             //contact submit btn
+             .contact-submit-btn{
+                 width: 100%;
+                 height: 68px;
+                 margin: 0 auto;
+        
+        button {
+        border: none;
+        color: $white;
+        cursor: pointer;
+        margin: 0 auto;
+        width: 520px;
+        height: 68px;
+        font-size: 22px;
+        border-radius: 50px;
+        letter-spacing: 0.1pc;
+        font-family: "prox-medium";
+        background-color: $primary;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+}
+    //active effect
+    .contact-submit-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+        }
+}
