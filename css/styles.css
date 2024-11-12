@@ -603,13 +603,12 @@ footer img {
     flex-direction: column;
     align-items: center;
   }
-  .donate-inputs input {
-    width: 90%;
+  .donate-form .donate-inputs input {
     font-size: 14px;
     height: 55px;
   }
   .donate-submit-btn {
-    width: 90%;
+    width: 80%;
   }
   .donate-submit-btn button {
     width: 100%;
@@ -725,7 +724,6 @@ footer img {
   display: block;
   font-size: 18px;
   color: #909090;
-  font-family: "red";
   margin-bottom: 20px;
   font-family: "prox-medium";
 }
@@ -736,6 +734,10 @@ footer img {
   font-family: "prox-medium";
   background-color: #d9d9d9;
 }
+.main-contact-parent .contact-form-parent textarea {
+  width: 520px;
+  height: 200px;
+}
 .main-contact-parent .contact-form-parent .contact-subject input {
   width: 520px;
   height: 30px;
@@ -745,16 +747,9 @@ footer img {
   border-bottom: 2px solid #909090;
 }
 .main-contact-parent .contact-form-parent .contact-message #cFMessage {
-  width: 520px;
-  height: 200px;
   outline: none;
   padding: 10px;
   border: 2px solid #909090;
-}
-.main-contact-parent .contact-form-parent .contact-submit-btn {
-  width: 100%;
-  height: 68px;
-  margin: 0 auto;
 }
 .main-contact-parent .contact-form-parent .contact-submit-btn button {
   border: none;
@@ -773,6 +768,54 @@ footer img {
 .main-contact-parent .contact-form-parent .contact-submit-btn:active {
   transform: translateY(2px);
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+  .contact-header p {
+    font-size: 28px;
+    text-align: center;
+  }
+  .main-contact-parent {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .main-contact-parent .contact-info-parent {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .main-contact-parent .contact-form-parent {
+    align-items: center;
+    margin-left: 75px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-form-parent .name-email-input {
+    flex-direction: column;
+  }
+  .contact-form-parent .contact-subject {
+    width: 50%;
+  }
+  .contact-form-parent .contact-subject #cFSubject {
+    width: 220px;
+  }
+  .contact-form-parent .contact-message {
+    width: 60%;
+  }
+  .contact-form-parent .contact-message textarea {
+    width: 240px;
+    height: 100px;
+  }
+  .contact-form-parent .contact-submit-btn {
+    width: 100%;
+    margin-left: -10px;
+  }
+  .contact-form-parent .contact-submit-btn #contactBtn {
+    width: 90%;
+    font-size: 18px;
+    height: 58px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
