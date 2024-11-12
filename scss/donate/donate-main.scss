@@ -71,5 +71,56 @@
          }
         }
     }
-    
 
+    //begin responsive style
+    @media (max-width: 768px) {
+        .donate-header {
+
+            p {
+                 font-size: 28px;
+            }
+           
+        }
+
+        .main-donate-holder {
+          flex-direction: column;
+
+          .donate-link-holder {
+
+            .box {
+                width: 100%;
+            }
+
+            .donate-type-btn {
+                font-size: 18px;
+                height: 60px;
+                margin-bottom: 30px;
+            }
+          }
+          
+        }
+
+    }
+    
+    @media (max-width: 480px) {
+        .donate-header {
+
+            p {
+                 font-size: 24px;
+            }
+           
+        }
+
+        .main-donate-holder {
+            .box {
+                width: 50%;
+            }
+            .donate-type-btn {
+                font-size: 16px;
+                height: 60px;
+                margin-bottom: 30px;
+        }
+    }
+
+
+    }
